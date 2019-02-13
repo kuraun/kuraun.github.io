@@ -1,0 +1,10 @@
+title: Kuraun Developers Site
+description: ’’ We lean forward to the next cloud native developments. ’’
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-slate
+
+github:
+  is_project_page: true
+  repository_name: kuraun
+  repository_url: https://github.com/kuraun
