@@ -7,6 +7,7 @@ layout: default
 []([Link to another page](./another-page.html))
 
 ## Products
+1.
 To publish Maven artifacts to S3 a build extension must be defined in a project's pom.xml. The latest version of the wagon can be found on the aws-maven page in Maven    Central.
 
 
@@ -28,6 +29,24 @@ To publish Maven artifacts to S3 a build extension must be defined in a project'
   </extensions>
 </build>
 ```
+---
+2.
+The AWS Secrets Manager JDBC Library enables Java developers to easily connect to SQL databases using secrets stored in AWS Secrets Manager.
+
+
+- [aws-secretsmanager-jdbc](https://github.com/kuraun/aws-secretsmanager-jdbc)
+  - Status: Scheduled to be released to Maven Central (Not Available)
+  - Features
+    - [x] Support for changing database drivers default secrets cache item TTL using environment variables or system properties.
+
+```xml
+<dependency>
+    <groupId>io.github.kuraun</groupId>
+    <artifactId>aws-secretsmanager-jdbc</artifactId>
+    <version>1.0.7</version>
+</dependency>
+```
+
 
 **Welcome pull requests.**
 
