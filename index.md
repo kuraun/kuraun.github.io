@@ -43,7 +43,7 @@ The AWS Secrets Manager JDBC Library enables Java developers to easily connect t
 <dependency>
     <groupId>io.github.kuraun</groupId>
     <artifactId>aws-secretsmanager-jdbc</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8-M1</version>
 </dependency>
 ```
 
